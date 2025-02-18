@@ -12,10 +12,11 @@ class	Contact
 			std::string	nickname;
 			std::string	darkest_secret;
 			int	phone_number;
-			int	index;
 	public:
-			Contact();
-			~Contact();
+			void setContact(std::string	first_name, std::string	last_name, std::string	nickname,std::string	darkest_secret, int	phone_number);
+			void displayContactResume(void);
+			void displayContactInfo(void);
+
 };
 
 
