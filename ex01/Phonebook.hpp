@@ -10,6 +10,9 @@ class	Phonebook
 {
 	private:
 			Contact  contacts[8];
+	public:
+			Phonebook();
+			~Phonebook();
 };
 
 
