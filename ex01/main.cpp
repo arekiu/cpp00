@@ -1,7 +1,8 @@
-#include "Phonebook.hpp"
+#include "PhoneBook.hpp"
 
 int	main()
 {
+	PhoneBook	phonebook;
 	std::string cmd;
 
 	while (cmd != "EXIT")

@@ -6,16 +6,17 @@
 #include <iostream>
 #include "Contact.hpp"
 
-class	Phonebook
+class	PhoneBook
 {
 	private:
-			Contact  contacts[8];
+		Contact	_contacts[8];
+
 	public:
-			Phonebook();
-			~Phonebook();
+			PhoneBook();
+			~PhoneBook();
 			void	addContact();
 			void	searchContact();
-			
+			void	printContact();
 };
 
 
