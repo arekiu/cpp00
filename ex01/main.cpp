@@ -7,11 +7,12 @@ int	main()
 
 	while (cmd != "EXIT")
 	{
-		std::cout << "Enter a command:";
+		std::cout << "Enter a command (ADD, SEARCH or EXIT):";
 		std::getline(std::cin, cmd);
 		if (cmd == "ADD")
 		{
 			std::cout << "Adding contact\n";
+			phonebook.addContact();
 		}
 		else if (cmd == "SEARCH")
 		{
