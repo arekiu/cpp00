@@ -7,24 +7,23 @@ int	main()
 
 	while (cmd != "EXIT")
 	{
-		std::cout << "Enter a command (ADD, SEARCH or EXIT):";
+		std::cout << "Enter a command (ADD, SEARCH or EXIT):" << std::endl;
 		std::getline(std::cin, cmd);
 		if (cmd == "ADD")
 		{
-			std::cout << "Adding contact\n";
 			phonebook.addContact();
 		}
 		else if (cmd == "SEARCH")
 		{
-			std::cout << "Show contacts\n";
+			phonebook.searchContact();
 		}
 		else if (cmd == "EXIT")
 		{
-			std::cout << "Finishing program.\n";
+			std::cout << "Finishing program." << std::endl;
 		}
 		else
 		{
-			std::cout << "Invalid command. Try again.\n" ;
+			std::cout << "Invalid command. Try again." << std::endl;
 		}
 	}
 }

@@ -3,6 +3,9 @@
 # define CONTACT_HPP
 
 #include <iostream>
+#include <sstream>
+#include <iomanip>
+#include <cstdlib>
 
 class	Contact
 {
@@ -18,7 +21,6 @@ class	Contact
 			~Contact();
 			void displayResume(void);
 			void displayInfo(void);
-
 };
 
 
