@@ -11,11 +11,11 @@
 # **************************************************************************** #
 
 NAME	= megaphone
-SRC	= megaphone.cpp
-OBJ     = $(SRC:.cpp=.o)
-CC      = c++
-FLAGS   = -Wall -Wextra -Werror -std=c++98
-RM      = rm -rf
+SRC		= megaphone.cpp
+OBJ		= $(SRC:.cpp=.o)
+CC		= c++
+FLAGS	= -Wall -Wextra -Werror -std=c++98
+RM		= rm -rf
 
 all: $(NAME)
 
